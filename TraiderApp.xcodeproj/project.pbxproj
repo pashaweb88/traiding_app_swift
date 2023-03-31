@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		CE36CEF029D1A25700BCA18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36CEEF29D1A25700BCA18F /* AppDelegate.swift */; };
 		CE36CEF229D1A25700BCA18F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36CEF129D1A25700BCA18F /* SceneDelegate.swift */; };
-		CE36CEF429D1A25700BCA18F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36CEF329D1A25700BCA18F /* ViewController.swift */; };
+		CE36CEF429D1A25700BCA18F /* ToolListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36CEF329D1A25700BCA18F /* ToolListViewController.swift */; };
 		CE36CEF729D1A25700BCA18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE36CEF529D1A25700BCA18F /* Main.storyboard */; };
 		CE36CEF929D1A25800BCA18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE36CEF829D1A25800BCA18F /* Assets.xcassets */; };
 		CE36CEFC29D1A25800BCA18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE36CEFA29D1A25800BCA18F /* LaunchScreen.storyboard */; };
 		CE36CF0729D1A25900BCA18F /* TraiderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36CF0629D1A25900BCA18F /* TraiderAppTests.swift */; };
 		CE36CF1129D1A25900BCA18F /* TraiderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36CF1029D1A25900BCA18F /* TraiderAppUITests.swift */; };
 		CE36CF1329D1A25900BCA18F /* TraiderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36CF1229D1A25900BCA18F /* TraiderAppUITestsLaunchTests.swift */; };
+		CE36CF2529D1AB8D00BCA18F /* ToolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36CF2429D1AB8D00BCA18F /* ToolDetailViewController.swift */; };
+		CE36CF2729D1ABF800BCA18F /* TodoDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36CF2629D1ABF800BCA18F /* TodoDetailModel.swift */; };
+		CE5BA6F029D58D910067F7FC /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BA6EF29D58D910067F7FC /* Label.swift */; };
+		CE5BA6F229D58EAA0067F7FC /* LoadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BA6F129D58EAA0067F7FC /* LoadButton.swift */; };
+		CE817F6829D1D06B00273CEF /* ToolDetailNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE817F6729D1D06B00273CEF /* ToolDetailNetworkService.swift */; };
+		CE817F6D29D1D6B500273CEF /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE817F6C29D1D6B500273CEF /* ModuleBuilder.swift */; };
+		CE817F6F29D2095F00273CEF /* ToolDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE817F6E29D2095F00273CEF /* ToolDetailPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,7 @@
 		CE36CEEC29D1A25700BCA18F /* TraiderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraiderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE36CEEF29D1A25700BCA18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE36CEF129D1A25700BCA18F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE36CEF329D1A25700BCA18F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE36CEF329D1A25700BCA18F /* ToolListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolListViewController.swift; sourceTree = "<group>"; };
 		CE36CEF629D1A25700BCA18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE36CEF829D1A25800BCA18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE36CEFB29D1A25800BCA18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		CE36CF0C29D1A25900BCA18F /* TraiderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraiderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE36CF1029D1A25900BCA18F /* TraiderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraiderAppUITests.swift; sourceTree = "<group>"; };
 		CE36CF1229D1A25900BCA18F /* TraiderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraiderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE36CF2429D1AB8D00BCA18F /* ToolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolDetailViewController.swift; sourceTree = "<group>"; };
+		CE36CF2629D1ABF800BCA18F /* TodoDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailModel.swift; sourceTree = "<group>"; };
+		CE5BA6EF29D58D910067F7FC /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		CE5BA6F129D58EAA0067F7FC /* LoadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadButton.swift; sourceTree = "<group>"; };
+		CE817F6729D1D06B00273CEF /* ToolDetailNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolDetailNetworkService.swift; sourceTree = "<group>"; };
+		CE817F6C29D1D6B500273CEF /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		CE817F6E29D2095F00273CEF /* ToolDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolDetailPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,9 @@
 		CE36CEEE29D1A25700BCA18F /* TraiderApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE36CF1F29D1A26900BCA18F /* Modules */,
 				CE36CEEF29D1A25700BCA18F /* AppDelegate.swift */,
 				CE36CEF129D1A25700BCA18F /* SceneDelegate.swift */,
-				CE36CEF329D1A25700BCA18F /* ViewController.swift */,
 				CE36CEF529D1A25700BCA18F /* Main.storyboard */,
 				CE36CEF829D1A25800BCA18F /* Assets.xcassets */,
 				CE36CEFA29D1A25800BCA18F /* LaunchScreen.storyboard */,
@@ -125,6 +139,53 @@
 				CE36CF1229D1A25900BCA18F /* TraiderAppUITestsLaunchTests.swift */,
 			);
 			path = TraiderAppUITests;
+			sourceTree = "<group>";
+		};
+		CE36CF1F29D1A26900BCA18F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE817F6929D1D69500273CEF /* ModuleBuilder */,
+				CE36CF2329D1AB7B00BCA18F /* ToolDetail */,
+				CE36CF2029D1A27A00BCA18F /* ToolList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE36CF2029D1A27A00BCA18F /* ToolList */ = {
+			isa = PBXGroup;
+			children = (
+				CE36CEF329D1A25700BCA18F /* ToolListViewController.swift */,
+			);
+			path = ToolList;
+			sourceTree = "<group>";
+		};
+		CE36CF2329D1AB7B00BCA18F /* ToolDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CE5BA6EE29D58C360067F7FC /* Views */,
+				CE36CF2429D1AB8D00BCA18F /* ToolDetailViewController.swift */,
+				CE36CF2629D1ABF800BCA18F /* TodoDetailModel.swift */,
+				CE817F6729D1D06B00273CEF /* ToolDetailNetworkService.swift */,
+				CE817F6E29D2095F00273CEF /* ToolDetailPresenter.swift */,
+			);
+			path = ToolDetail;
+			sourceTree = "<group>";
+		};
+		CE5BA6EE29D58C360067F7FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE5BA6EF29D58D910067F7FC /* Label.swift */,
+				CE5BA6F129D58EAA0067F7FC /* LoadButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE817F6929D1D69500273CEF /* ModuleBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				CE817F6C29D1D6B500273CEF /* ModuleBuilder.swift */,
+			);
+			path = ModuleBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE36CEF429D1A25700BCA18F /* ViewController.swift in Sources */,
+				CE36CF2529D1AB8D00BCA18F /* ToolDetailViewController.swift in Sources */,
+				CE36CEF429D1A25700BCA18F /* ToolListViewController.swift in Sources */,
+				CE5BA6F029D58D910067F7FC /* Label.swift in Sources */,
+				CE817F6F29D2095F00273CEF /* ToolDetailPresenter.swift in Sources */,
+				CE817F6D29D1D6B500273CEF /* ModuleBuilder.swift in Sources */,
+				CE5BA6F229D58EAA0067F7FC /* LoadButton.swift in Sources */,
 				CE36CEF029D1A25700BCA18F /* AppDelegate.swift in Sources */,
+				CE817F6829D1D06B00273CEF /* ToolDetailNetworkService.swift in Sources */,
+				CE36CF2729D1ABF800BCA18F /* TodoDetailModel.swift in Sources */,
 				CE36CEF229D1A25700BCA18F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
